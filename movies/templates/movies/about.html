@@ -1,0 +1,9 @@
+{% extends "movies/_base.html" %}
+
+<html>
+    {% block content %}
+    <h1>I love HORROR movies, but have noone to watch them with.</h1>
+    {% load static %}
+    <img style="width: 300px;" src="{% static 'movies/the_ring.jpg' %}" alt="A picture of The Ring.">
+    {% endblock %}
+</html>
